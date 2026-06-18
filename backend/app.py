@@ -1,4 +1,5 @@
 from contextlib import asynccontextmanager
+import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -18,9 +19,14 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="AI Career Roadmap Generator", version="1.0.0", lifespan=lifespan)
 
+frontend_url = os.getenv("FRONTEND_URL")
+allowed_origins = ["http://localhost:5173", "http://127.0.0.1:5173"]
+if frontend_url:
+    allowed_origins.append(frontend_url.rstrip("/"))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

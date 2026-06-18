@@ -1,0 +1,27 @@
+{
+  "AI Engineer": {
+    "core_skills": ["Python", "Machine Learning", "Deep Learning", "LLMs", "Vector Databases", "MLOps", "APIs"],
+    "tools": ["PyTorch", "TensorFlow", "LangChain", "FastAPI", "Docker"],
+    "roles": ["AI Engineer", "Machine Learning Engineer", "LLM Application Developer"]
+  },
+  "Data Scientist": {
+    "core_skills": ["Python", "Statistics", "SQL", "Machine Learning", "Data Visualization", "Experimentation"],
+    "tools": ["Pandas", "Scikit-learn", "Tableau", "Jupyter", "Airflow"],
+    "roles": ["Data Scientist", "Product Analyst", "ML Analyst"]
+  },
+  "Full Stack Developer": {
+    "core_skills": ["JavaScript", "React", "APIs", "Databases", "Testing", "Cloud Deployment"],
+    "tools": ["React", "Node.js", "FastAPI", "PostgreSQL", "Docker"],
+    "roles": ["Full Stack Developer", "Frontend Engineer", "Backend Developer"]
+  },
+  "DevOps Engineer": {
+    "core_skills": ["Linux", "Networking", "CI/CD", "Cloud", "Containers", "Monitoring", "Infrastructure as Code"],
+    "tools": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "AWS"],
+    "roles": ["DevOps Engineer", "Cloud Engineer", "Site Reliability Engineer"]
+  },
+  "Cybersecurity Analyst": {
+    "core_skills": ["Networking", "Linux", "Threat Modeling", "SIEM", "Incident Response", "Cloud Security"],
+    "tools": ["Wireshark", "Splunk", "Nmap", "Burp Suite", "AWS Security Hub"],
+    "roles": ["Security Analyst", "SOC Analyst", "Cloud Security Associate"]
+  }
+}

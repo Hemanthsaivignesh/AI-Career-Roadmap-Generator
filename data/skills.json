@@ -1,0 +1,11 @@
+{
+  "levels": ["Beginner", "Intermediate", "Advanced"],
+  "default_roles": ["AI Engineer", "Data Scientist", "Full Stack Developer", "DevOps Engineer", "Cybersecurity Analyst"],
+  "skill_aliases": {
+    "js": "JavaScript",
+    "ml": "Machine Learning",
+    "dl": "Deep Learning",
+    "k8s": "Kubernetes",
+    "postgres": "PostgreSQL"
+  }
+}

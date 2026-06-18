@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Google Data Analytics Professional Certificate",
+    "provider": "Google",
+    "difficulty": "Beginner",
+    "estimated_cost": "$49/month",
+    "website": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "roles": ["Data Scientist"]
+  },
+  {
+    "name": "AWS Certified Cloud Practitioner",
+    "provider": "Amazon Web Services",
+    "difficulty": "Beginner",
+    "estimated_cost": "$100",
+    "website": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "roles": ["DevOps Engineer", "Full Stack Developer", "AI Engineer"]
+  },
+  {
+    "name": "Microsoft Azure AI Fundamentals",
+    "provider": "Microsoft",
+    "difficulty": "Beginner",
+    "estimated_cost": "$99",
+    "website": "https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/",
+    "roles": ["AI Engineer", "Data Scientist"]
+  },
+  {
+    "name": "TensorFlow Developer Certificate",
+    "provider": "TensorFlow",
+    "difficulty": "Intermediate",
+    "estimated_cost": "$100",
+    "website": "https://www.tensorflow.org/certificate",
+    "roles": ["AI Engineer", "Data Scientist"]
+  },
+  {
+    "name": "Meta Front-End Developer Professional Certificate",
+    "provider": "Meta",
+    "difficulty": "Beginner",
+    "estimated_cost": "$49/month",
+    "website": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+    "roles": ["Full Stack Developer"]
+  },
+  {
+    "name": "Certified Kubernetes Application Developer",
+    "provider": "Cloud Native Computing Foundation",
+    "difficulty": "Advanced",
+    "estimated_cost": "$395",
+    "website": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/",
+    "roles": ["DevOps Engineer"]
+  },
+  {
+    "name": "CompTIA Security+",
+    "provider": "CompTIA",
+    "difficulty": "Beginner",
+    "estimated_cost": "$404",
+    "website": "https://www.comptia.org/certifications/security",
+    "roles": ["Cybersecurity Analyst"]
+  }
+]

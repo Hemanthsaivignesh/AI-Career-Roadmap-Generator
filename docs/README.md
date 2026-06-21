@@ -14,13 +14,14 @@ A full-stack career planning workbench built with React, Vite, Tailwind CSS, Fas
 
 ## Backend Setup
 
+Run these commands from the project root:
+
 ```bash
-cd backend
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env
-uvicorn backend.app:app --reload
+pip install -r backend/requirements.txt
+copy backend\.env.example backend\.env
+uvicorn backend.app:app --reload --port 8000
 ```
 
 The API runs at `http://localhost:8000`.
@@ -34,6 +35,8 @@ npm run dev
 ```
 
 The app runs at `http://localhost:5173`.
+
+Do not use VS Code Live Server for `frontend/index.html`. Vite must transform the React JSX modules, so use `npm run dev`.
 
 ## API
 
